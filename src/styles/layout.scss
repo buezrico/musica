@@ -1,0 +1,27 @@
+@import "./variable";
+
+.layout {
+  background-color: $dark;
+
+  .search-component {
+    position: fixed;
+    top: 0;
+    left: 7rem;
+    height: 5rem;
+    width: 100%;
+  }
+
+  .tabs-component {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70vh;
+    width: 7rem;
+  }
+
+  main {
+    margin-top: 5rem;
+    margin-left: 7rem;
+    // width: 100%;
+  }
+}
